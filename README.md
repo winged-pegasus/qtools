@@ -24,10 +24,25 @@ A comprehensive CLI toolkit for installing, configuring, managing, and monitorin
 ### Prerequisites
 
 - A Linux server (Ubuntu recommended)
-- `git` installed
 - A non-root user with sudo access
 
 ### Installation
+
+**One-liner (recommended):**
+
+```bash
+curl -sSL https://raw.githubusercontent.com/QuilibriumNetwork/qtools/main/install.sh | bash
+source ~/.bashrc
+```
+
+Or with `wget`:
+
+```bash
+wget -qO- https://raw.githubusercontent.com/QuilibriumNetwork/qtools/main/install.sh | bash
+source ~/.bashrc
+```
+
+**Manual installation:**
 
 ```bash
 git clone https://github.com/QuilibriumNetwork/qtools.git
